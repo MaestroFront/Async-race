@@ -1,0 +1,18 @@
+@import './base/normalize';
+
+@import '../components/header/header';
+
+@import './components/buttons';
+@import './components/inputs';
+
+@import './elements/header';
+@import './elements/footer';
+@import './elements/main';
+
+@import '../components/garage/garage';
+@import '../components/winners/winners';
+
+.body {
+    background-color: antiquewhite;
+    position: relative;
+}

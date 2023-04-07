@@ -1,1 +1,1 @@
-# Async-race
+At first, u should start a server from this repo: https://github.com/mikhama/async-race-api

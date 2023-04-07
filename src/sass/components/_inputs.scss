@@ -1,0 +1,21 @@
+.input {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.create-input,
+.update-input {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+
+.winners-number,
+.winners-car,
+.winners-name,
+.winners-wins,
+.winners-best-time {
+    background-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+}

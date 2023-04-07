@@ -1,0 +1,52 @@
+.winners-page {
+    width: 50%;
+}
+
+.winners-table {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 430px;
+}
+
+.car-winner-img {
+    width: 50px;
+}
+
+.winners-title {
+    margin-bottom: 20px;
+}
+
+.car-winner {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.winners-title,
+.car-winner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.winners-btns-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .winners-page {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .winners-number,
+    .winners-car,
+    .winners-name,
+    .winners-wins,
+    .winners-best-time {
+        width: 50px;
+        font-size: 10px;
+    }
+}

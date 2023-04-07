@@ -1,0 +1,66 @@
+/* normalize */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+    // color: black;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+img {
+    vertical-align: top;
+}
+html,
+body {
+    font-family: 'Neucha', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    height: 100%;
+    color: black;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+    cursor: pointer;
+}
+
